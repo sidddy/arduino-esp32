@@ -10,7 +10,7 @@ menu.DebugLevel=Core Debug Level
 esp32.name=ESP32 Dev Module
 
 esp32.upload.tool=esptool
-esp32.upload.maximum_size=1310720
+esp32.upload.maximum_size=1966080
 esp32.upload.maximum_data_size=294912
 esp32.upload.wait_for_upload_port=true
 
@@ -27,7 +27,7 @@ esp32.build.flash_size=4MB
 esp32.build.flash_freq=40m
 esp32.build.flash_mode=dio
 esp32.build.boot=dio
-esp32.build.partitions=default
+esp32.build.partitions=min_spiffs
 
 esp32.menu.PartitionScheme.default=Default
 esp32.menu.PartitionScheme.default.build.partitions=default
